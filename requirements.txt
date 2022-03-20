@@ -1,0 +1,10 @@
+Flask
+Flask-RESTful
+Flask-JWT
+Flask-SQLAlchemy
+Flask-JWT-Extended
+wheel
+mysql-connector-python
+mysql-connector-python-rf
+pymysql
+cryptography

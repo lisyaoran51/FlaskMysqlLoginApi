@@ -49,7 +49,7 @@ class CurrentUser(Resource):
         return {'message': 'User deleted'}, 200
     
 
-    @jwt_optional()
+    @jwt_optional
     def put(self):
 
         user_id = get_jwt_identity()

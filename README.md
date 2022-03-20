@@ -24,3 +24,13 @@ $ python app.py
 * `GET`     **/user**        = get data of current logged in user.
 * `PUT`     **/user**        = update data of current logged in user.
 * `DELETE`  **/user**        = delete current logged in user.
+
+## DB Schema DDL
+```sql
+CREATE DATABASE user_db;
+CREATE TABLE users (
+user_id INTEGER AUTO_INCREMENT PRIMARY KEY, 
+username VARCHAR(255), 
+password VARCHAR(255), 
+birthdate DATE);
+```
